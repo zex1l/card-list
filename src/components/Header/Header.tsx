@@ -7,7 +7,7 @@ const Header = () => {
         <header className='header'>
             <Layout>
                 <div className="header__inner">
-                    <Link to='/' className="header__inner-logo">Cards List</Link>
+                    <Link to='/card-list/' className="header__inner-logo">Cards List</Link>
                 </div>
             </Layout>
         </header>
