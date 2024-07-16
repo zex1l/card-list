@@ -1,0 +1,43 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+} 
+
+input {
+   outline: none;
+   border: none;
+   background-color: inherit;
+}
+
+.main__title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}

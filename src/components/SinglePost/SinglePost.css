@@ -1,0 +1,29 @@
+.single-post {
+    padding: 30px 0;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media (max-width: 768px) {
+        width: fit-content;
+    }
+}
+
+
+.signle-post__buttons button {
+    cursor: pointer;
+    background-color: #2200e6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px #2200e6 solid;
+
+    transition: all 0.2s ease;
+}
+
+.signle-post__buttons button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px #000000 solid;
+}
