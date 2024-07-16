@@ -7,6 +7,7 @@ import { useAppDispatch } from '../../hooks/hook.redux';
 import { postSlice } from '../../store/reducers/PostSlice';
 
 import { transformText } from '../../utils/transformText';
+import trashIcon from '../../../public/trash.svg'
 
 const Item :FC<IPost> = ({id, body, isLiked, title}) => {
 
@@ -27,7 +28,7 @@ const Item :FC<IPost> = ({id, body, isLiked, title}) => {
                 <button className="content__button-delete"
                     onClick={() => dispatch(deleteCurrentPost(id))}
                 >
-                    <img className='trash__button' src="../../../img/trash.svg" alt="trash button" />
+                    <img className='trash__button' src={trashIcon} alt="trash button" />
                 </button>
                 
                 <button 

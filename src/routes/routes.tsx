@@ -6,14 +6,14 @@ import PostPage from "../Pages/PostPage/PostPage";
 
 export const routes = createBrowserRouter([
     {
-        path: '/',
+        path: '/card-list/',
         element: <App/>,
         children: [
             {
                 path: '', element: <Home/>
             },
             {
-                path: '/post/:id', element: <PostPage/>
+                path: '/card-list/post/:id', element: <PostPage/>
             },
         ]
     },  

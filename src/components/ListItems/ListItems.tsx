@@ -88,7 +88,6 @@ const ListItems = () => {
                         })
                     }
                 </ul>
-                
                 {!isActiveLikeBtn && 
                 
                     <button
