@@ -16,7 +16,7 @@ const SinglePost : FC<IPost> = ({body, id, title}) => {
             </div>
 
            <div className="signle-post__buttons">
-                <Link to='/card-list/'>
+                <Link to='/'>
                     <button>Назад</button>
                 </Link>
            </div>

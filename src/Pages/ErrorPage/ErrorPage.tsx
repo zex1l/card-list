@@ -8,7 +8,7 @@ const ErrorPage = () => {
             <button
                 className='error__page-btn'
             >
-                <Link to='/card-list/'>
+                <Link to='/'>
                     Go to home
                 </Link>
             </button>

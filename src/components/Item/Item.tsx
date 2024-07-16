@@ -18,7 +18,7 @@ const Item :FC<IPost> = ({id, body, isLiked, title}) => {
     return (
         <li className='list__content-item'>
             
-            <Link to={`/card-list/post/${id}`}>
+            <Link to={`/post/${id}`}>
                 <h3 className="content__item-header">{title}</h3>
                 <div className="content__item-body">
                     <p className='content__item-text'>{transformText(body)}</p>
